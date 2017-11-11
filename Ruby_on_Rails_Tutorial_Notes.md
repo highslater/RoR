@@ -33,4 +33,18 @@ Did you re-run bundle install?
 Did you try running bundle update?
 Did you try Googling the error message?
 If your problem is of a general nature, such as having issues installing Rails or configuring your system, I suggest posting to Stack Overflow (again using the tag railstutorial.org), sending a message to the Ruby on Rails Talk mailing list, or posting to the Learn_Rails subreddit. This will allow other people running into your issue (and not just those following the Rails Tutorial) to benefit from the discussion. You can also try asking your question on the Rails IRC channel (#rubyonrails) to get live assistance from other Rails programmers. For issues deploying to Heroku, please contact Heroku technical support.
-When asking your question on any mailing list or forum, be sure to include as much relevant information as possible. To maximize your chances of a helpful reply, I especially recommend the article How To Ask Questions The Smart Way by Eric Raymond.
+When asking your question on any mailing list or forum, be sure to include as much relevant information as possible. To maximize your chances of a helpful reply, I especially recommend the article How To Ask Questions The Smart Way by Eric Raymond.  
+
+1.2 Up and running  
+
+1.2.1 Development environment  
+
+Here are the steps for getting started with the cloud development environment:
+
+Sign up for a free account at Cloud9.9 In order to prevent abuse, Cloud9 requires a valid credit card for signup, but the Rails Tutorial workspace is 100% free, and your card will not be charged.
+Click on “Go to your Dashboard”.
+Select “Create New Workspace”.
+As shown in Figure 1.3, create a workspace called “rails-tutorial” (not “rails_tutorial”), set it to “Private to the people I invite”, and select the icon for the Rails Tutorial (not the icon for Ruby on Rails).
+Click “Create workspace”.
+After Cloud9 has finished provisioning the workspace, it should start automatically.
+
