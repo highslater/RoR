@@ -56,3 +56,80 @@ Listing 1.1: Installing Rails with a specific version number.
 $ gem install rails -v 5.1.2
 Here the -v flag ensures that the specified version of Rails gets installed, which is important for getting results consistent with this tutorial.  
 
+highslater:~/workspace $ gem install rails -v 5.1.2
+Fetching: concurrent-ruby-1.0.5.gem (100%)
+Successfully installed concurrent-ruby-1.0.5
+Fetching: i18n-0.9.1.gem (100%)
+Successfully installed i18n-0.9.1
+Fetching: thread_safe-0.3.6.gem (100%)
+Successfully installed thread_safe-0.3.6
+Fetching: tzinfo-1.2.4.gem (100%)
+Successfully installed tzinfo-1.2.4
+Fetching: activesupport-5.1.2.gem (100%)
+Successfully installed activesupport-5.1.2
+Fetching: rack-2.0.3.gem (100%)
+Successfully installed rack-2.0.3
+Fetching: rack-test-0.6.3.gem (100%)
+Successfully installed rack-test-0.6.3
+Fetching: mini_portile2-2.3.0.gem (100%)
+Successfully installed mini_portile2-2.3.0
+Fetching: nokogiri-1.8.1.gem (100%)
+Building native extensions.  This could take a while...
+Successfully installed nokogiri-1.8.1
+Fetching: crass-1.0.2.gem (100%)
+Successfully installed crass-1.0.2
+Fetching: loofah-2.1.1.gem (100%)
+Successfully installed loofah-2.1.1
+Fetching: rails-html-sanitizer-1.0.3.gem (100%)
+Successfully installed rails-html-sanitizer-1.0.3
+Fetching: rails-dom-testing-2.0.3.gem (100%)
+Successfully installed rails-dom-testing-2.0.3
+Fetching: builder-3.2.3.gem (100%)
+Successfully installed builder-3.2.3
+Fetching: erubi-1.7.0.gem (100%)
+Successfully installed erubi-1.7.0
+Fetching: actionview-5.1.2.gem (100%)
+Successfully installed actionview-5.1.2
+Fetching: actionpack-5.1.2.gem (100%)
+Successfully installed actionpack-5.1.2
+Fetching: activemodel-5.1.2.gem (100%)
+Successfully installed activemodel-5.1.2
+Fetching: arel-8.0.0.gem (100%)
+Successfully installed arel-8.0.0
+Fetching: activerecord-5.1.2.gem (100%)
+Successfully installed activerecord-5.1.2
+Fetching: globalid-0.4.1.gem (100%)
+Successfully installed globalid-0.4.1
+Fetching: activejob-5.1.2.gem (100%)
+Successfully installed activejob-5.1.2
+Fetching: mini_mime-1.0.0.gem (100%)
+Successfully installed mini_mime-1.0.0
+Fetching: mail-2.7.0.gem (100%)
+Successfully installed mail-2.7.0
+Fetching: actionmailer-5.1.2.gem (100%)
+Successfully installed actionmailer-5.1.2
+Fetching: nio4r-2.1.0.gem (100%)
+Building native extensions.  This could take a while...
+Successfully installed nio4r-2.1.0
+Fetching: websocket-extensions-0.1.3.gem (100%)
+Successfully installed websocket-extensions-0.1.3
+Fetching: websocket-driver-0.6.5.gem (100%)
+Building native extensions.  This could take a while...
+Successfully installed websocket-driver-0.6.5
+Fetching: actioncable-5.1.2.gem (100%)
+Successfully installed actioncable-5.1.2
+Fetching: thor-0.20.0.gem (100%)
+Successfully installed thor-0.20.0
+Fetching: method_source-0.9.0.gem (100%)
+Successfully installed method_source-0.9.0
+Fetching: railties-5.1.2.gem (100%)
+Successfully installed railties-5.1.2
+Fetching: bundler-1.16.0.gem (100%)
+Successfully installed bundler-1.16.0
+Fetching: sprockets-3.7.1.gem (100%)
+Successfully installed sprockets-3.7.1
+Fetching: sprockets-rails-3.2.1.gem (100%)
+Successfully installed sprockets-rails-3.2.1
+Fetching: rails-5.1.2.gem (100%)
+Successfully installed rails-5.1.2
+36 gems installed
