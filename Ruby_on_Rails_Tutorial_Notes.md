@@ -139,14 +139,15 @@ Successfully installed rails-5.1.2
 Listing 1.3: Running rails new (with a specific version number).  
 
 ```console
-$ cd ~/workspace
-$ rails _5.1.2_ new hello_app
-      create
+highslater:~/workspace $ rails _5.1.2_ new hello_app
+      create  
       create  README.md
       create  Rakefile
       create  config.ru
       create  .gitignore
       create  Gemfile
+         run  git init from "."
+Initialized empty Git repository in /home/ubuntu/workspace/hello_app/.git/
       create  app
       create  app/assets/config/manifest.js
       create  app/assets/javascripts/application.js
@@ -155,28 +156,220 @@ $ rails _5.1.2_ new hello_app
       create  app/channels/application_cable/channel.rb
       create  app/channels/application_cable/connection.rb
       create  app/controllers/application_controller.rb
-      .
-      .
-      .
+      create  app/helpers/application_helper.rb
+      create  app/jobs/application_job.rb
+      create  app/mailers/application_mailer.rb
+      create  app/models/application_record.rb
+      create  app/views/layouts/application.html.erb
+      create  app/views/layouts/mailer.html.erb
+      create  app/views/layouts/mailer.text.erb
+      create  app/assets/images/.keep
+      create  app/assets/javascripts/channels
+      create  app/assets/javascripts/channels/.keep
+      create  app/controllers/concerns/.keep
+      create  app/models/concerns/.keep
+      create  bin
+      create  bin/bundle
+      create  bin/rails
+      create  bin/rake
+      create  bin/setup
+      create  bin/update
+      create  bin/yarn
+      create  config
+      create  config/routes.rb
+      create  config/application.rb
+      create  config/environment.rb
+      create  config/secrets.yml
+      create  config/cable.yml
+      create  config/puma.rb
+      create  config/spring.rb
+      create  config/environments
+      create  config/environments/development.rb
+      create  config/environments/production.rb
+      create  config/environments/test.rb
+      create  config/initializers
+      create  config/initializers/application_controller_renderer.rb
+      create  config/initializers/assets.rb
+      create  config/initializers/backtrace_silencers.rb
+      create  config/initializers/cookies_serializer.rb
+      create  config/initializers/cors.rb
+      create  config/initializers/filter_parameter_logging.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/new_framework_defaults_5_1.rb
+      create  config/initializers/wrap_parameters.rb
+      create  config/locales
+      create  config/locales/en.yml
+      create  config/boot.rb
+      create  config/database.yml
+      create  db
+      create  db/seeds.rb
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.keep
+      create  lib/assets
+      create  lib/assets/.keep
+      create  log
+      create  log/.keep
+      create  public
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/apple-touch-icon-precomposed.png
+      create  public/apple-touch-icon.png
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  test/fixtures
+      create  test/fixtures/.keep
+      create  test/fixtures/files
+      create  test/fixtures/files/.keep
+      create  test/controllers
+      create  test/controllers/.keep
+      create  test/mailers
+      create  test/mailers/.keep
+      create  test/models
+      create  test/models/.keep
+      create  test/helpers
+      create  test/helpers/.keep
+      create  test/integration
+      create  test/integration/.keep
+      create  test/test_helper.rb
+      create  test/system
+      create  test/system/.keep
+      create  test/application_system_test_case.rb
+      create  tmp
+      create  tmp/.keep
+      create  tmp/cache
       create  tmp/cache/assets
-      create  vendor/assets/javascripts
-      create  vendor/assets/javascripts/.keep
-      create  vendor/assets/stylesheets
-      create  vendor/assets/stylesheets/.keep
+      create  vendor
+      create  vendor/.keep
+      create  package.json
       remove  config/initializers/cors.rb
+      remove  config/initializers/new_framework_defaults_5_1.rb
          run  bundle install
-Fetching gem metadata from https://rubygems.org/..........
-Fetching additional metadata from https://rubygems.org/..
+The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
+Fetching gem metadata from https://rubygems.org/.........
+Fetching gem metadata from https://rubygems.org/.
 Resolving dependencies...
-Installing rake 11.1.2
-Using concurrent-ruby 1.0.2
-.
-.
-.
-Your bundle is complete!
-Use `bundle show [gemname]` to see where a bundled gem is installed.
+Fetching rake 12.2.1
+Installing rake 12.2.1
+Using concurrent-ruby 1.0.5
+Using i18n 0.9.1
+Fetching minitest 5.10.3
+Installing minitest 5.10.3
+Using thread_safe 0.3.6
+Using tzinfo 1.2.4
+Fetching activesupport 5.1.4
+Installing activesupport 5.1.4
+Using builder 3.2.3
+Using erubi 1.7.0
+Using mini_portile2 2.3.0
+Using nokogiri 1.8.1
+Using rails-dom-testing 2.0.3
+Using crass 1.0.2
+Using loofah 2.1.1
+Using rails-html-sanitizer 1.0.3
+Fetching actionview 5.1.4
+Installing actionview 5.1.4
+Using rack 2.0.3
+Fetching rack-test 0.7.0
+Installing rack-test 0.7.0
+Fetching actionpack 5.1.4
+Installing actionpack 5.1.4
+Using nio4r 2.1.0
+Using websocket-extensions 0.1.3
+Using websocket-driver 0.6.5
+Fetching actioncable 5.1.4
+Installing actioncable 5.1.4
+Using globalid 0.4.1
+Fetching activejob 5.1.4
+Installing activejob 5.1.4
+Using mini_mime 1.0.0
+Using mail 2.7.0
+Fetching actionmailer 5.1.4
+Installing actionmailer 5.1.4
+Fetching activemodel 5.1.4
+Installing activemodel 5.1.4
+Using arel 8.0.0
+Fetching activerecord 5.1.4
+Installing activerecord 5.1.4
+Fetching public_suffix 3.0.1
+Installing public_suffix 3.0.1
+Fetching addressable 2.5.2
+Installing addressable 2.5.2
+Fetching bindex 0.5.0
+Installing bindex 0.5.0 with native extensions
+Using bundler 1.16.0
+Fetching byebug 9.1.0
+Installing byebug 9.1.0 with native extensions
+Fetching xpath 2.1.0
+Installing xpath 2.1.0
+Fetching capybara 2.15.4
+Installing capybara 2.15.4
+Fetching ffi 1.9.18
+Installing ffi 1.9.18 with native extensions
+Fetching childprocess 0.8.0
+Installing childprocess 0.8.0
+Fetching coffee-script-source 1.12.2
+Installing coffee-script-source 1.12.2
+Fetching execjs 2.7.0
+Installing execjs 2.7.0
+Fetching coffee-script 2.4.1
+Installing coffee-script 2.4.1
+Using method_source 0.9.0
+Using thor 0.20.0
+Fetching railties 5.1.4
+Installing railties 5.1.4
+Fetching coffee-rails 4.2.2
+Installing coffee-rails 4.2.2
+Fetching multi_json 1.12.2
+Installing multi_json 1.12.2
+Fetching jbuilder 2.7.0
+Installing jbuilder 2.7.0
+Fetching rb-fsevent 0.10.2
+Installing rb-fsevent 0.10.2
+Fetching rb-inotify 0.9.10
+Installing rb-inotify 0.9.10
+Fetching ruby_dep 1.5.0
+Installing ruby_dep 1.5.0
+Fetching listen 3.1.5
+Installing listen 3.1.5
+Fetching puma 3.10.0
+Installing puma 3.10.0 with native extensions
+Using sprockets 3.7.1
+Using sprockets-rails 3.2.1
+Fetching rails 5.1.4
+Installing rails 5.1.4
+Fetching rubyzip 1.2.1
+Installing rubyzip 1.2.1
+Fetching sass-listen 4.0.0
+Installing sass-listen 4.0.0
+Fetching sass 3.5.3
+Installing sass 3.5.3
+Fetching tilt 2.0.8
+Installing tilt 2.0.8
+Fetching sass-rails 5.0.6
+Installing sass-rails 5.0.6
+Fetching selenium-webdriver 3.7.0
+Installing selenium-webdriver 3.7.0
+Fetching spring 2.0.2
+Installing spring 2.0.2
+Fetching spring-watcher-listen 2.0.1
+Installing spring-watcher-listen 2.0.1
+Fetching sqlite3 1.3.13
+Installing sqlite3 1.3.13 with native extensions
+Fetching turbolinks-source 5.0.3
+Installing turbolinks-source 5.0.3
+Fetching turbolinks 5.0.1
+Installing turbolinks 5.0.1
+Fetching uglifier 3.2.0
+Installing uglifier 3.2.0
+Fetching web-console 3.5.1
+Installing web-console 3.5.1
+Bundle complete! 16 Gemfile dependencies, 70 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
          run  bundle exec spring binstub --all
 * bin/rake: spring inserted
 * bin/rails: spring inserted
-
+      
 ```
