@@ -48,3 +48,11 @@ As shown in Figure 1.3, create a workspace called “rails-tutorial” (not “r
 Click “Create workspace”.
 After Cloud9 has finished provisioning the workspace, it should start automatically.
 
+1.2.2 Installing Rails
+
+The development environment from Section 1.2.1 includes all the software we need to get started except for Rails itself. To install Rails, we’ll use the gem command provided by the RubyGems package manager, which involves typing the command shown in Listing 1.1 into your command-line terminal. (If developing on your local system, this means using a regular terminal window; if using the cloud IDE, this means using the command-line area shown in Figure 1.2.)
+
+Listing 1.1: Installing Rails with a specific version number.
+$ gem install rails -v 5.1.2
+Here the -v flag ensures that the specified version of Rails gets installed, which is important for getting results consistent with this tutorial.  
+
