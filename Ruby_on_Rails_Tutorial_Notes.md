@@ -139,7 +139,8 @@ Successfully installed rails-5.1.2
 Listing 1.3: Running rails new (with a specific version number).  
 
 ```console
-highslater:~/workspace $ rails _5.1.2_ new hello_app
+highslater:~/workspace  
+$ rails _5.1.2_ new hello_app
       create  
       create  README.md
       create  Rakefile
