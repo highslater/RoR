@@ -14,7 +14,11 @@ the wider web by deploying it to production.
 
 1.1.2 Conventions used in this book  
 
-HELP
+HELP  
+
+https://www.railstutorial.org/#help  
+
+
 Web development is a tricky business, and despite the best efforts of the tutorial it’s likely that you’ll run into trouble at some point. If you do, I suggest comparing your code to the reference implementation of the sample app to track down any discrepancies. You can also post your question at Stack Overflow using the tag railstutorial.org. (Click here to see questions labeled with that tag.) The creators of the Learn_Rails subreddit have graciously offered to answer questions as well.
 Errors in the tutorial can be reported by email, but please triple-check by comparing with the reference implementation of the sample app first.
 DEBUGGING TIPS
