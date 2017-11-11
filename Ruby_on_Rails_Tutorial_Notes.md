@@ -138,7 +138,7 @@ Successfully installed rails-5.1.2
 
 Listing 1.3: Running rails new (with a specific version number).  
 
-```console
+```bash
 $ cd ~/workspace
 $ rails _5.1.2_ new hello_app
       create
