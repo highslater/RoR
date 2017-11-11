@@ -132,4 +132,51 @@ Fetching: sprockets-rails-3.2.1.gem (100%)
 Successfully installed sprockets-rails-3.2.1
 Fetching: rails-5.1.2.gem (100%)
 Successfully installed rails-5.1.2
-36 gems installed
+36 gems installed  
+
+1.3 The first application  
+
+Listing 1.3: Running rails new (with a specific version number).  
+
+```bash 
+$ cd ~/workspace
+$ rails _5.1.2_ new hello_app
+      create
+      create  README.md
+      create  Rakefile
+      create  config.ru
+      create  .gitignore
+      create  Gemfile
+      create  app
+      create  app/assets/config/manifest.js
+      create  app/assets/javascripts/application.js
+      create  app/assets/javascripts/cable.js
+      create  app/assets/stylesheets/application.css
+      create  app/channels/application_cable/channel.rb
+      create  app/channels/application_cable/connection.rb
+      create  app/controllers/application_controller.rb
+      .
+      .
+      .
+      create  tmp/cache/assets
+      create  vendor/assets/javascripts
+      create  vendor/assets/javascripts/.keep
+      create  vendor/assets/stylesheets
+      create  vendor/assets/stylesheets/.keep
+      remove  config/initializers/cors.rb
+         run  bundle install
+Fetching gem metadata from https://rubygems.org/..........
+Fetching additional metadata from https://rubygems.org/..
+Resolving dependencies...
+Installing rake 11.1.2
+Using concurrent-ruby 1.0.2
+.
+.
+.
+Your bundle is complete!
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+         run  bundle exec spring binstub --all
+* bin/rake: spring inserted
+* bin/rails: spring inserted
+
+```
