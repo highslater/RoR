@@ -374,3 +374,6 @@ Use `bundle info [gemname]` to see where a bundled gem is installed.
 * bin/rails: spring inserted
       
 ```
+
+1.3.1 Bundler  
+
