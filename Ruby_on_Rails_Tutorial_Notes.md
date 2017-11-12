@@ -251,7 +251,8 @@ Initialized empty Git repository in /home/ubuntu/workspace/hello_app/.git/
 The dependency tzinfo-data (>= 0) will be unused by any of the platforms  
 Bundler is installing for.  
 Bundler is installing for ruby but the dependency is only for x86-mingw32,  
-x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
+x86-mswin32, x64-mingw32, java. To add those platforms to the bundle,  
+run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
 Fetching gem metadata from https://rubygems.org/.........
 Fetching gem metadata from https://rubygems.org/.
 Resolving dependencies...
