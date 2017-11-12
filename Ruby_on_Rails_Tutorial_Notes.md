@@ -53,9 +53,11 @@ After Cloud9 has finished provisioning the workspace, it should start automatica
 The development environment from Section 1.2.1 includes all the software we need to get started except for Rails itself. To install Rails, we’ll use the gem command provided by the RubyGems package manager, which involves typing the command shown in Listing 1.1 into your command-line terminal. (If developing on your local system, this means using a regular terminal window; if using the cloud IDE, this means using the command-line area shown in Figure 1.2.)
 
 Listing 1.1: Installing Rails with a specific version number.
+```console
 $ gem install rails -v 5.1.2
+```
 Here the -v flag ensures that the specified version of Rails gets installed, which is important for getting results consistent with this tutorial.  
-
+```console
 highslater:~/workspace $ gem install rails -v 5.1.2
 Fetching: concurrent-ruby-1.0.5.gem (100%)
 Successfully installed concurrent-ruby-1.0.5
@@ -133,7 +135,7 @@ Successfully installed sprockets-rails-3.2.1
 Fetching: rails-5.1.2.gem (100%)
 Successfully installed rails-5.1.2
 36 gems installed  
-
+```
 1.3 The first application  
 
 Listing 1.3: Running rails new (with a specific version number).  
